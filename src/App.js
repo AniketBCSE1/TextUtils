@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Navbar from './components/Navbar';
 import TextForm from './components/TextForm';
@@ -8,8 +7,7 @@ import { useState } from 'react';
 import {
   BrowserRouter as Router,
   Routes,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
 
 function App() {
